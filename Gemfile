@@ -5,6 +5,8 @@ gem "dotenv-rails"
 gem "cloudinary"
 gem 'sassc-rails'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
